@@ -6,7 +6,6 @@ print("Welcome to the Number Guessing Game.\n")
 
 a = int(input("enter the start point of the range of guess"))
 b = int(input("enter the end point of guessing the number "))
-
 right_number = random.randint(a, b)
 
 print("I've picked a number for you to guess.")
