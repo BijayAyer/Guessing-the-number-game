@@ -15,8 +15,8 @@ guessed_number = int(input("Guess a number:"))
 
 while guessed_number != right_number:
     count=count+1
-    if guessed_number<1 or guessed_number>5:
-        print("Invalid guess. Please enter a number between 1 and 5.")
+    if guessed_number<a or guessed_number>b:
+        print(f"Invalid guess. Please enter a number between {a} and {b}.")
 
     elif guessed_number > right_number:
         print("\nYour guess is not correct.")
